@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -22,10 +23,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 50px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.checkbox label {
+  margin-left: 15px;
+  display: inline-block;
+  width: 150px;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
